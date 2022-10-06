@@ -10,6 +10,9 @@ import lombok.*;
 public class CouponPurchased extends AbstractEvent {
 
     private Long id;
+    private String name;
+    private Long price;
+    private String buyer;
 
     public CouponPurchased(Coupon aggregate){
         super(aggregate);

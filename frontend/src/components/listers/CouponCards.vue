@@ -70,6 +70,7 @@
             me.newValue = {
                 'name': '',
                 'price': 0,
+                'buyer': '',
             }
         },
         methods:{

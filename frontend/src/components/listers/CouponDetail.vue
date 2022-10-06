@@ -11,6 +11,9 @@
             <div>
                 <Number label="Price" v-model="item.price" :editMode="editMode" @change="change" />
             </div>
+            <div>
+                <String label="Buyer" v-model="item.buyer" :editMode="editMode" @change="change" />
+            </div>
         </v-card-text>
 
         <v-card-actions>

@@ -34,6 +34,12 @@ public class Coupon  {
     
     
     private Long price;
+    
+    
+    
+    
+    
+    private String buyer;
 
     @PostPersist
     public void onPostPersist(){

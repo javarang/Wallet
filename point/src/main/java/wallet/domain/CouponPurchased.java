@@ -9,6 +9,9 @@ import java.util.*;
 public class CouponPurchased extends AbstractEvent {
 
     private Long id;
+    private String name;
+    private Long price;
+    private String buyer;
 }
 
 
