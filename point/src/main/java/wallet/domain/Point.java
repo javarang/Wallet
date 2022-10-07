@@ -58,6 +58,8 @@ public class Point  {
         Point point = new Point();
         repository().save(point);
 
+        PointsDeducted pointsDeducted = new PointsDeducted(point);
+        pointsDeducted.publishAfterCommit();
         */
 
         /** Example 2:  finding and process
@@ -67,6 +69,8 @@ public class Point  {
             point // do something
             repository().save(point);
 
+            PointsDeducted pointsDeducted = new PointsDeducted(point);
+            pointsDeducted.publishAfterCommit();
 
          });
         */
